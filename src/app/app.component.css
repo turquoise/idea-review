@@ -1,3 +1,5 @@
+
+
 .heading {
   background-color: #cfd8dc;
   width: 100%;
@@ -12,6 +14,7 @@
 
 .container {
   width: 100%;
+  background-color: #eceff1;
 }
 
 .item-3 {
@@ -19,9 +22,9 @@
 }
 
 .item-1 {
-  background-color: #cfd8dc;
+  background-color: #eceff1;
 }
 
 .item-2 {
-  background-color: #cfd8dc;
+  background-color: #eceff1;
 }

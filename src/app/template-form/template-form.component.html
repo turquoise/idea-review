@@ -1,0 +1,17 @@
+<h4>Template Idea Form</h4>
+<form #ideaForm="ngForm" (ngSubmit)="onSubmit(ideaForm)">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input #name="ngModel"
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Enter the name of your idea."
+          required
+          name="name"
+          ngModel>
+  </div>
+  <button type="submit" class="btn btn-default" [disabled]="!ideaForm.form.valid">
+    Submit
+  </button>
+</form>

@@ -1,0 +1,14 @@
+<h4>Reactive Idea Form</h4>
+<form [formGroup]="ideaForm" novalidate (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label >Name:</label>
+    <input class="form-control" formControlName="name" placeholder="Enter the name of your idea.">
+    <p>Form value: {{ ideaForm.value |json }}</p>
+    <p>Form status: {{ ideaForm.status | json}}</p>
+  </div>
+  <button class="btn btn-default"
+          type="submit"
+          [disabled]="ideaForm.pristine">
+    Submit
+  </button>
+</form>
