@@ -9,11 +9,13 @@ import { IdeaStartComponent } from './idea-start/idea-start.component';
 import { BusinessComponent } from './business/business.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { IdeaScoreComponent } from './idea-score/idea-score.component';
+import { NewsComponent } from './news/news.component';
 
 const routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'news', component: NewsComponent },
   { path: 'idea', component: IdeaComponent, children: [
     { path: '', redirectTo: 'idea-start', pathMatch: 'full'},
     { path: 'idea-start', component: IdeaStartComponent },

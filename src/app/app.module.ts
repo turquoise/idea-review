@@ -21,6 +21,9 @@ import { IdeaStartComponent } from './idea-start/idea-start.component';
 import { BusinessComponent } from './business/business.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { IdeaScoreComponent } from './idea-score/idea-score.component';
+import { NewsComponent } from './news/news.component';
+import { NewsLinksComponent } from './news-links/news-links.component';
+import { ProductLinksComponent } from './product-links/product-links.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { IdeaScoreComponent } from './idea-score/idea-score.component';
     IdeaStartComponent,
     BusinessComponent,
     TechnologyComponent,
-    IdeaScoreComponent
+    IdeaScoreComponent,
+    NewsComponent,
+    NewsLinksComponent,
+    ProductLinksComponent
   ],
   imports: [
     BrowserModule,

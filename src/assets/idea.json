@@ -42,6 +42,13 @@
         "4": "",
         "5": ""
       },
+      "technology": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
       "constraints": {
         "1": "What resources are needed? (pull down list e.g. can you make it on your own?)",
         "2": "Are there any technology constraints? (pull down list)",
@@ -66,6 +73,13 @@
         "5": ""
       },
       "business": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "technology": {
         "1": "",
         "2": "",
         "3": "",
@@ -188,6 +202,17 @@
       "user"
       "stakeholder"
     ]
+  },
+  "rules": {
+    "targetAudience": {
+      "user": "younger than 18 safeguarding issues"
+    },
+    "legal": {
+      "auth": "users have to be identifiable"
+    }
+  },
+  "ideaScore": {
+
   },
   "comments": [
     "stage will not be shown in a form as it is evaluated",
