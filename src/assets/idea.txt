@@ -1,0 +1,203 @@
+{
+  "idea": {
+    "name": "",
+    "author": "",
+    "description": "",
+    "dates": {
+      "initialDate": "",
+      "changeDates": [
+        "date changed 1",
+        "date changed 2"
+      ],
+      "launchDate": ""
+    },
+    "questions": {
+      "general": {
+        "1": ""
+      },
+      "stage": {
+        "0": "",
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "readiness": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "6": "",
+        "7": "",
+        "8": "",
+        "9": "",
+        "10": ""
+      },
+      "business": {
+        "1": "What problem does your idea solve? (free text)",
+        "2": "Who is your target market> (pull down list)",
+        "3": "What is the business model? (pull down list)",
+        "4": "",
+        "5": ""
+      },
+      "constraints": {
+        "1": "What resources are needed? (pull down list e.g. can you make it on your own?)",
+        "2": "Are there any technology constraints? (pull down list)",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "answers": {
+      "stage": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "readiness": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "business": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      },
+      "constraints": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": ""
+      }
+    },
+    "decisions": {
+
+    },
+    "components": {
+      "technology": "database",
+    },
+    "stage": "0",
+    "readiness": "0"
+  },
+  "stage": {
+    "0": {
+      "name": "Idea"
+    },
+    "1": {
+      "name": "Proof of Concept"
+    },
+    "2": {
+      "name": "Prototype"
+    },
+    "3": {
+      "name": "Production"
+    },
+    "4": {
+      "name": "Marketing"
+    }
+  },
+  "readiness": {
+    "0": {
+      "name": "initial"
+    },
+    "1": {
+      "name": "Blue Sky"
+    },
+    "2": {
+      "name": "Model design"
+    },
+    "3": {
+      "name": "Component design"
+    },
+    "4": {
+      "name": "Integration design"
+    },
+    "5": {
+      "name": "Integration build"
+    },
+    "6": {
+      "name": "Testable Prototype show to an end user"
+    },
+    "7": {
+      "name": "Production design"
+    },
+    "8": {
+      "name": "Production build"
+    },
+    "9": {
+      "name": "Production test"
+    },
+    "10": {
+      "name": "Service operational"
+    }
+  },
+  "business": {
+    "0": {
+      "name": ""
+    },
+    "1": {
+      "name": ""
+    },
+    "2": {
+      "name": ""
+    },
+    "3": {
+      "name": ""
+    },
+    "4": {
+      "name": ""
+    },
+    "5": {
+      "name": ""
+    }
+  },
+  "constraints": {
+    "0": {
+      "type": "No constraints"
+    },
+    "1": {
+      "type": "technology readiness constraints"
+    },
+    "2": {
+      "type": "financial constraints"
+    },
+    "3": {
+      "type": "skills constraints"
+    },
+    "4": {
+      "type": "time constraints"
+    },
+    "5": {
+      "type": "technology skills constraints"
+    }
+
+  },
+  "person": {
+    "type": [
+      "author",
+      "user"
+      "stakeholder"
+    ]
+  },
+  "comments": [
+    "stage will not be shown in a form as it is evaluated",
+    "all ideas start at 0.",
+    "readiness 1, 2 and 3 need to be defined as proof of concept.",
+    "where there are numerical answers there will be some thresholds.",
+    "e.g. a difference in readiness greater than 2 needs action.",
+    "more than one constraint can stopr or hinder an idea."
+  ],
+  "dateJsonChanged": [
+    "Sunday 13/08/2017"
+  ]
+}

@@ -7,7 +7,7 @@
           (click)="isCollapsed = !isCollapsed">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">IdeaReview</a>
+  <a class="navbar-brand" routerLink="/home" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">IdeaReview</a>
   <div class="collapse navbar-collapse"
       id="navbarNav"
       (collapsed)="collapsed($event)"
@@ -15,13 +15,29 @@
       [collapse]="isCollapsed">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#" (click)="isCollapsed = !isCollapsed">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link"
+          routerLink="/home"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true}"
+          (click)="isCollapsed = !isCollapsed">
+          Home
+          <span class="sr-only">(current)</span>
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" (click)="isCollapsed = !isCollapsed">Features</a>
+        <a class="nav-link" routerLink="/idea" routerLinkActive="active" (click)="isCollapsed = !isCollapsed">
+          Idea
+        </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" (click)="isCollapsed = !isCollapsed">Pricing</a>
+        <a class="nav-link" routerLink="/about" routerLinkActive="active" (click)="isCollapsed = !isCollapsed">
+          About
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact" routerLinkActive="active" (click)="isCollapsed = !isCollapsed">
+          Contact
+        </a>
       </li>
 
     </ul>
